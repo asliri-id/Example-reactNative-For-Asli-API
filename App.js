@@ -136,13 +136,6 @@ export default function App() {
                     color="red"
                     title="choose selfie photo"
                   />
-                  <Button
-                    onPress={() => {
-                      console.log(selfiePic);
-                    }}
-                    color="green"
-                    title="check self"
-                  />
                 </View>
 
                 <Button onPress={handleSubmit} title="Submit" />
